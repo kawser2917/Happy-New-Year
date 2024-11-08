@@ -242,3 +242,47 @@ header {
     gap: 24px;
  
 }
+/* Nesletter section */
+.newsletter{
+    margin-top: 120px;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.image{
+    text-align: center;
+}
+.image img{
+    text-align: center;
+    margin-top: 80px;
+}
+.newsletter-content{
+    text-align: center;
+}
+.newsletter-title{
+    margin-top: 40px;
+    font-size: 48px;
+    font-weight: 800;
+    color: #070211;
+}
+.newsletter-description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 22px;
+}
+.newsletter-content form{
+    margin-top: 48px;
+}
+.newsletter-content form input[type="email"]{
+    padding: 25px 150px 25px 30px;
+    border-radius: 50px 0px 0px 50px;
+    
+}
+.newsletter-content form input[type="submit"]{
+    padding: 25px 50px 25px 30px; 
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    color: #fff;
+    font-size: 20px;
+}
