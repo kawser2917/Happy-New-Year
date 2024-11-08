@@ -8,6 +8,12 @@
     font-family: "Merriweather", serif;
 }
 
+main {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+}
+
 /* Header section design */
 header {
     width: 1320px;
@@ -71,20 +77,20 @@ header {
 
 /* Welcoming section style */
 .welcoming {
-    width: 1320px;
-    height: 600px;
     margin: 0 auto;
     background: url('../Images/Vectorrr.png');
     background-repeat: no-repeat;
 }
+
 .welcoming-container {
     display: flex;
     gap: 90px;
-    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    padding: 130px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 80px;
 }
-.welcoming-content{
-   padding: 60px;
+
+.welcoming-content {
+    padding: 60px;
 }
 
 .welcoming-title {
@@ -99,7 +105,8 @@ header {
     font-weight: 400;
     margin-top: 24px;
 }
-.btn{
+
+.btn {
     margin-top: 40px;
     padding: 20px;
     font-size: 20px;
@@ -107,4 +114,98 @@ header {
     text-align: center;
     border-radius: 20px;
 }
- 
+
+/* Time section */
+.time {
+    margin-top: 120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 385px 214px 385px;
+}
+
+.time-container {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.time-content {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Offer section design */
+.offer {
+    margin-top: 120px;
+    background: #FFF;
+}
+
+.offer-container {
+    display: flex;
+    gap: 70px;
+}
+
+.offer-container img {
+    border: 15px solid #F00;
+    border-radius: 50%;
+}
+
+.offer-content {
+    margin-top: 70px;
+    padding-left: 70px;
+}
+
+.offer-content img {
+    width: 148px;
+    height: 148px;
+}
+
+/* Holidays section */
+.holidays {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.holidays-title {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holidays-title-1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holidays-title-1 span{
+    color: #F00;
+}
+.holidays-description{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 20px; 
+    padding: 20px;
+}
+.holidays-images{
+    position: absolute;
+    top: 3500px;
+}
+.img-1{
+    position: relative;
+    top: 250px;
+    left: 30px;
+}
+.img-2{
+    position: relative;
+    top: 7px;
+    left: 45px;
+}
+.img-3{
+    position: absolute;
+    bottom: 300px;
+    right: 300px;
+
+}
